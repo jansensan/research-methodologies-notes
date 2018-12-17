@@ -26,14 +26,21 @@
 
 #### <a name="confounding-vars"></a> Confounding variables
 
-- Definition: Differences between conditions that could account for observed differences in the dependent variable.
+Definition:
+
+Differences between conditions that could account for observed differences in the dependent variable.
 
 
 #### <a name="control-group"></a> Control group
 
 ![](./figures/fig-control-group.png)
 
-- Definition: A control group in a scientific experiment is a group separated from the rest of the experiment, where the independent variable being tested cannot influence the results. This isolates the independent variable's effects on the experiment and can help rule out alternative explanations of the experimental results.
+Definition:
+
+A control group in a scientific experiment is a group separated from the rest of the experiment, where the independent variable being tested cannot influence the results. This isolates the independent variable's effects on the experiment and can help rule out alternative explanations of the experimental results.
+
+Notes:
+
 - Participants that do not receive “treatment” thought to produce
 a change in the dependent variable  
 - Provide baseline comparison measure  
@@ -42,6 +49,8 @@ explanations
 
 
 #### <a name="inference"></a> Inference
+
+Notes:
 
 - Take a sample, estimate something (ex. the mean), then assume it applies to the whole population.
 
@@ -70,6 +79,8 @@ explanations
 
 #### <a name="validity"></a> Validity
 
+Notes:
+
 - **Internal validity**: The independent variable did affect the dependent variable
 - **Construct validity**: Validity of the psychological construct, e.g. validity of IQ test with respect to “intelligence” (i.e. use SoA methods)
 - **External validity**: Can the effect demonstrated in an experiment be generalized beyond the exact experimental context.
@@ -80,7 +91,8 @@ explanations
 
 A **statistic** is anything that can be computed from collected data.
 
-Examples:  
+Examples:
+
 - **Point statistic**: A single value computed from data, e.g. the sample average $x̄_n$, or the sample standard deviation $s_n$  
 - **Interval, or range statistics**: an interval $[a,b]$ computed from the data. A pair of point statistics. Often written as $x̄ \pm s$.
 
@@ -130,7 +142,7 @@ Definition:
 Notes:
 
 - With respect to hypothesis tests, alpha refers to significance level, the probability of making a Type I error.
-- Value of the p-value under which science accepts the alternative hypothesis ($H_A$)
+- Value of the p-value under which science accepts the alternative hypothesis ($H_A$).
 
 Symbol used:
 
@@ -175,9 +187,9 @@ Definition:
 Notes:
 
 - Types of relations:
-  - Positive relation
-  - Negative relation
-  - No relation
+  - Positive relation;
+  - Negative relation;
+  - No relation.
 - ⚠️ The fact that 2 variables correlate at a point in time does not mean they covariate over time.
 - ⚠️ Correlation does not mean causation.
 - Spurious correlation: data that looks related, but is more likely a coincidence.  
@@ -186,10 +198,10 @@ Notes:
 	- [Spurious correlations, by Tyler Vigen](http://www.tylervigen.com/spurious-correlations)
 	- [Spurious relationship on Wikipedia](https://en.wikipedia.org/wiki/Spurious_relationship)
 
-- Pearson's correlation coefficient
-	- Measures linear dependance between two variables
-	- Standardized covariance
-	- Assumes normal distribution
+- Pearson's correlation coefficient:
+	- Measures linear dependance between two variables;
+	- Standardized covariance;
+	- Assumes normal distribution.
 	- Formula:
 		
 		$$cov(x,y) = \frac{\sum^n_{i = 0}(x_1 - x̄)(y_1 - \hat{y})}{n - 1}$$
@@ -208,10 +220,11 @@ $$dof = n - 1$$
 
 Definition:
 
-- Difference between the median of the first half, and the median of the second half. It is a measure of dispersion.
+- Difference between the median of the first half, and the median of the second half.
 
 Notes:
 
+- Measure of dispersion.
 - ⚠️ Can *only* be used when distribution is *not* normal.
 
 Symbol used:
@@ -227,7 +240,7 @@ Definition:
 
 Notes:
 
-- Measure of central tendency
+- Measure of central tendency.
 - Sometimes, the mean is not descriptive, e.g. a high value can affect the mean.
 
 
@@ -241,11 +254,11 @@ Symbols used:
 
 Definition:
 
-- A value that divides the sample in two equal parts. The number in the middle of the list once ordered. 
+- A value that divides the sample in two equal parts. The number in the middle of the list, once ordered. 
 
 Notes:
 
-- Measure of central tendency
+- Measure of central tendency.
 - In the case of a list with a length of an even number, there would be two middle numbers. The mean of the two middle numbers is then the median.
   
 
@@ -257,16 +270,16 @@ Definition:
 
 Notes:
 
-- Measure of central tendency
+- Measure of central tendency.
 
 
 #### <a name="margin-of-error"></a> Margin of error
 
 Notes
 
-- Not fixed
-- Calculated with the standard error
-- Lowering margin of error requires a larger sample size
+- Not fixed.
+- Calculated with the standard error.
+- Lowering margin of error requires a larger sample size.
 
 
 #### <a name="non-parametric-test"></a> Non-parametric test
@@ -301,7 +314,7 @@ Notes:
 
 - There is no statistically significant difference between the samples. Any difference found is simply due to chance.
 - A null hypothesis ($H_0$) is the alternative to our tentative hypothesis ($H_A$)
-- ⚠️ A null hypothesis ($H_0$) can never be accepted. Either the alternative hypothesis ($H_0$) is true, or we know nothing.
+- ⚠️ A null hypothesis ($H_0$) can never be accepted. Either the alternative hypothesis ($H_A$) is true, or we know nothing.
 
 
 #### <a name="p-value"></a> p-value
@@ -312,24 +325,8 @@ Definition:
 
 Notes:
 
-- A p-value cannot be $1$ or $0$
-- A p-value always represents something as long as the null hypothesis ($H_0$) is true
-
-
-#### <a name="power"></a> Power
-
-Definition:
-
-- Power represents the probability of detecting an significant result whenever it truly occurs
-
-Notes:
-
-- Statistical power is related to sample size and other characteristics of experiment
-- Goal is to determine power achieved by certain sample size or determine sample size necessary to achieve desired power
-- When in need to increase the power of a test, increase the sample size.
-- Power can be quantified by doing a power analysis.
-- With more power, the accuracy of the mean increases.
-- However, samples that are too big could reveal insignificant/irrelevant hypothesis.
+- A p-value cannot be $1$ or $0$.
+- A p-value always represents something as long as the null hypothesis ($H_0$) is true.
 
 
 #### <a name="parametric-test"></a> Parametric test
@@ -368,11 +365,27 @@ Corresponding non-parametric tests:
 | One-way repeated measures ANOVA | 	Friedman's ANOVA |
 
 
+#### <a name="power"></a> Power
+
+Definition:
+
+- Power represents the probability of detecting an significant result whenever it truly occurs.
+
+Notes:
+
+- Statistical power is related to sample size and other characteristics of experiment.
+- Goal is to determine power achieved by certain sample size or determine sample size necessary to achieve desired power.
+- When in need to increase the power of a test, increase the sample size.
+- Power can be quantified by doing a power analysis.
+- With more power, the accuracy of the mean increases.
+- However, samples that are too big could reveal insignificant/irrelevant hypothesis.
+
+
 #### <a name="q-q-plot"></a> Q-Q Plot
 
 Notes:
 
-- A mapping of a normal distribution on another cartesian view, where the x axis are the values obtained, and the y values are the expected values.
+- A mapping of a normal distribution on another cartesian view, where the x axis represents the values obtained, and the y axis, the expected values.
 - A normal distribution would show a straight line heading up o nthe right.
 
 
@@ -380,9 +393,9 @@ Notes:
 
 Notes:
 
+- Also called the *correlation coefficient*.
 - Indicates whether a relation is positive or negative.
 - Represents the strength of a relationship.
-- Also called the *correlation coefficient*.
 
 
 #### <a name="range"></a> Range
@@ -494,7 +507,7 @@ Notes
 
 Notes: 
 
-- Test to calculate the difference between two samples
+- Test to calculate difference between means of two samples
 
 Assumptions:
 
@@ -506,8 +519,11 @@ Assumptions:
 
 Examples:
 
-- **Paired t-test**: testing same sample at different moments
-- **Two-sample t-test**: testing different samples
+- **One-sample t-test**: Compare the mean of a sample with a (known)population mean, or some other meaningful fixed value.
+- **Independent (samples), or Two-sample t-test**: Testing different samples.  
+	Two experimental conditions and different participants are assigned to each condition (“between groups” experimental design).
+- **Dependent, or Paired t-test**: Testing same sample at different moments.  
+	Two experimental conditions and subjects take part in both conditions (“repeated measures” experimental design).
 
 Steps:
 
@@ -633,6 +649,7 @@ $$z_{i} = \frac{x_i - x̄}{s}$$
 - [Choosing a non-parametric test](http://changingminds.org/explanations/research/analysis/choose_nonparametric.htm)
 - [de Winter - Using the Student’s t-test with extremely small sample sizes](https://pareonline.net/getvn.asp?v=18&n=10)
 - [Free Statistics Calculators - One-Sample T-Test](https://www.danielsoper.com/statcalc/calculator.aspx?id=98)
+- [How To... Calculate Student's t Statistic (Equal Variance) by Hand](https://www.youtube.com/watch?v=avixq-YsXv0)
 - [How To... Perform a Wilcoxon Signed Rank Test (By Hand)](https://www.youtube.com/watch?v=TqCg2tb4wJ0)
 - [How To... Perform the Mann-Whitney U Test (By Hand)](https://www.youtube.com/watch?v=BT1FKd1Qzjw)
 - [How To... Test for Equal and Unequal Variance (F Test) by Hand](https://www.youtube.com/watch?v=-ukqBN5sQSI)
@@ -657,14 +674,19 @@ $$z_{i} = \frac{x_i - x̄}{s}$$
 
 #### Matplotlib (`plt`)
 
-- [`matplotlib.pyplot` API](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.html#module-matplotlib.pyplot)
 - [Matplotlib Website](https://matplotlib.org/)
 - [Matplotlib Github Repo](https://github.com/matplotlib/matplotlib)
 - [Matplotlib Tutorial Series - Graphing in Python](https://www.youtube.com/watch?v=q7Bo_J8x_dw&list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF)
+- [`matplotlib.pyplot` API](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.html#module-matplotlib.pyplot)
+
 
 #### Numpy
 
 - [Numpy reference](https://docs.scipy.org/doc/numpy/reference/)
+- [`numpy.mean`](https://docs.scipy.org/doc/numpy/reference/generated/numpy.mean.html)
+- [`numpy.median`](https://docs.scipy.org/doc/numpy/reference/generated/numpy.median.html)
+- [`numpy.std` (standard deviation)](https://docs.scipy.org/doc/numpy/reference/generated/numpy.std.html)
+- [`numpy.var` (variance)](https://docs.scipy.org/doc/numpy/reference/generated/numpy.var.html)
 
 #### Pandas
 
@@ -674,3 +696,4 @@ $$z_{i} = \frac{x_i - x̄}{s}$$
 #### SciPy
 
 - [`scipy.stats` API](https://docs.scipy.org/doc/scipy/reference/stats.html)
+- [`scipy.stats.levene` (Levene's test)](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.levene.html)
