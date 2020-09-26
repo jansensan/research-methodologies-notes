@@ -1,5 +1,10 @@
 # Research Methodologies
 
+These notes have been written in the context of the [Research Methodologies in Humanities and Science](https://academia.jansensan.net/category/30845/) course taken in the context of a [Master in Cognitive Systems and Interactive Media](https://www.upf.edu/web/csim) at [Universitat Pompeu Fabra](https://www.upf.edu/), in Barcelona, ES.
+
+In order to benefit from those notes, ensure to enable TeX-like math syntax. You may want to clone this repo locally and use a [Markdown](https://daringfireball.net/projects/markdown/) editor such as [MacDown](https://macdown.uranusjr.com/).
+
+
 ## Notes
 
 - **Deductive thinking**: Start from general principles to derive theory.
